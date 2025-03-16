@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.30)
+project(MatX)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(MatX main.cpp
+        MatX.cpp
+        MatX.h)
+
+
